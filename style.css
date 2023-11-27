@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.header-logo {
+    width: 70px;
+    height: 30px;
+    object-fit: contain;
+}
+.hamburgerIcon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.hero-section-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.hero-section-container img {
+    width: 100%;
+    max-width: 500px;
+    align-self: center;
+    margin-bottom: 40px;
+}
+.hero-section-container h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hero-section-container p {
+    font-size: 15px;
+    text-align: center;
+    color: hsl(0, 0%, 41%);
+    font-size: 500;
+    margin-bottom: 20px;
+}
+.hero-section-container button {
+    padding: 12px 17px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.clients {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.hero-section-container .clientLogo {
+    height: 30px;
+    object-fit: contain;
+    padding: 5px;
+    margin-bottom: 0px;
+}
