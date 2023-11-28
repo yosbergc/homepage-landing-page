@@ -13,13 +13,83 @@
 <body>
   <header>
     <img src="images/logo.svg" alt="Logo" class="header-logo">
-    <img src="images/icon-menu.svg" alt="Hamburger Icon" class="hamburgerIcon">
+    <div class="desktop hide">
+      <nav>
+        <ul>
+          <div class="relative-container">
+            <li><a href="#" class="features-menu">Features</a><img src="images/icon-arrow-down.svg" class="arrowDown arrowFeatures"></li>
+          <div class="features hide">
+            <ul>
+              <li><img src="images/icon-todo.svg" class="iconMenu"><a href="#">Todo List</a></li>
+              <li><img src="images/icon-calendar.svg" class="iconMenu"><a href="#">Calendar</a></li>
+              <li><img src="images/icon-reminders.svg" class="iconMenu"><a href="#">Reminders</a></li>
+              <li><img src="images/icon-planning.svg" class="iconMenu"><a href="#">Planning</a></li>
+            </ul>
+          </div>
+          </div>
+          <div class="relative-container">
+            <li><a href="#" class="companyMenu">Company</a><img src="images/icon-arrow-down.svg" class="arrowDown arrowCompany"></li>
+          <div class="company hide">
+            <ul>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          </div>
+          <li><a href="">Careers</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </nav>
+      <div class="buttons">
+        <a href="#" class="loginButton">Login</a>
+        <a href="#" class="registerButton">Register</a>
+      </div>
+    </div>
+    </div>
+    <div class="mobile">
+      <img src="images/icon-menu.svg" alt="Hamburger Icon" class="hamburgerIcon">
+    <div class="menuMobile hide">
+      <img src="images/icon-close-menu.svg" alt="Close Icon" class="closeMenuIcon">
+      <nav>
+        <ul>
+          <li><a href="#" class="features-menu-mobile">Features</a><img src="images/icon-arrow-down.svg" class="arrowDown arrowFeatures"></li>
+          <div class="featuresMobile hide">
+            <ul>
+              <li><img src="images/icon-todo.svg" class="iconMenu"><a href="#">Todo List</a></li>
+              <li><img src="images/icon-calendar.svg" class="iconMenu"><a href="#">Calendar</a></li>
+              <li><img src="images/icon-reminders.svg" class="iconMenu"><a href="#">Reminders</a></li>
+              <li><img src="images/icon-planning.svg" class="iconMenu"><a href="#">Planning</a></li>
+            </ul>
+          </div>
+          <li><a href="#" class="companyMenuMobile">Company</a><img src="images/icon-arrow-down.svg" class="arrowDown arrowCompany"></li>
+          <div class="companyMobile hide">
+            <ul>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <li><a href="">Careers</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </nav>
+      <div class="buttons">
+        <a href="#" class="loginButton">Login</a>
+        <a href="#" class="registerButton">Register</a>
+      </div>
+    </div>
+    <div class="fondoOscuro hide">
+
+    </div>
+    </div>
+    
   </header>
   <main>
     <section class="hero-section-container">
-      <img src="images/image-hero-mobile.png" alt="Hero Image Mobile">
+      <img src="images/image-hero-mobile.png" alt="Hero Image Mobile" class="hero-section-image">
       <div class="hero-section-info">
-        <h2>Make remote work</h2>
+        <h2>Make <span>remote work</span></h2>
       <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
       <button>Learn more</button>
       <div class="clients">
