@@ -234,6 +234,7 @@ header {
         grid-template-columns: 1fr 1fr;
         padding-left: 50px;
         padding-right: 50px;
+        justify-items: center;
     }
     .hero-section-container h2 {
         font-size: 70px;
